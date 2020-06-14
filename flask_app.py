@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jun 14 14:03:40 2020
-
-@author: Pradipkumar
-"""
-
 from flask import Flask,render_template,request
 import pickle
 app=Flask(__name__)
