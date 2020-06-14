@@ -6,7 +6,7 @@ app=Flask(__name__)
 def fun1():
     return render_template("titanic.html") # it provides html page as response
 
-@app.route("/predict",methods=["POST"])
+@app.route("/predict",methods=["POST","GET"])
 def fun2():
     Pclass=float(request.form["PClass"])
     Age=float(request.form["Age"])
