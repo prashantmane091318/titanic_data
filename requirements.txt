@@ -12,6 +12,5 @@ Werkzeug==0.15.6
 pickleshare==0.7.5
 Click==7.0
 cloudpickle==1.2.2
-flask
 request
 rendered_template
