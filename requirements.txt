@@ -13,4 +13,4 @@ pickleshare==0.7.5
 Click==7.0
 cloudpickle==1.2.2
 request
-rendered_template
+pickle
